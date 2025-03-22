@@ -95,11 +95,9 @@ function sendRomanticEmail(response) {
   if (response === "Yes") {
     message = "She said YES! 🎉❤️";
   } else if (response === "No") {
-    message = "She said NO 😔💔";
-  } else if (response === "I Love You") {
-    message = "She LOVES you! 😍🔥";
-  } else if (response === "Just Like You") {
-    message = "She just likes you... but there's hope 😅💫";
+    message = "She said Not Intrested 😔💔";
+  } else {
+    message = "She said Not Intrested 😔💔";
   }
 
   const templateParams = {
